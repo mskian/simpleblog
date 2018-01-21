@@ -1,0 +1,30 @@
+{{!< default}}
+
+{{!-- The tag above means - insert everything in this file into the {body} of the default.hbs template --}}
+
+
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<br />
+<br />
+{{#tag}}<h1 class="tag-archieves text-center">{{name}}</h1>{{/tag}}
+<br />
+
+{{#foreach posts}}
+<article class="{{post_class}}">
+<h2 class="post-subarchs"><a href="{{url}}" title="{{title}}">{{title}}</a></h2>
+<div class="archieves-meta">
+Posted on <time datetime="{{date updated_at format='YYYY-MM-DD'}}">{{date updated_at format="DD MMMM YYYY"}}</time> by {{#author}}<span><a href="{{url}}" rel="author">{{name}}</a></span>{{/author}}
+</div>
+<hr>
+</article>
+{{/foreach}}
+
+<div class="text-center">
+{{pagination}}
+</div>
+
+</div>
+</div>
+</div>

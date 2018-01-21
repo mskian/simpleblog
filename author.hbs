@@ -1,0 +1,40 @@
+{{!< default}}
+
+{{#author}}
+
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-lg-6 col-lg-offset-3 text-center">
+<br />
+<br />
+<h2 class="author-bio">Posts by {{name}}</h2>
+{{#if bio}}<p class="author-bio">{{bio}}</p>{{/if}}
+<p class="author-bio">Total - <span>{{plural ../pagination.total empty='No posts' singular='% post' plural='% posts'}}</span> <i class="fa fa-pencil" aria-hidden="true"></i> </P>
+</div>
+</div>
+</div>
+<br />
+
+{{/author}}
+
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+{{#foreach posts}}
+<article class="{{post_class}}">
+<h2 class="post-subarchs"><a href="{{url}}" title="{{title}}">{{title}}</a></h2>
+<div class="archieves-meta">
+Posted on <time datetime="{{date updated_at format='YYYY-MM-DD'}}">{{date updated_at format="DD MMMM YYYY"}}</time> by {{#author}}<span><a href="{{url}}" rel="author">{{name}}</a></span>{{/author}}
+</div>
+<hr>
+</article>
+{{/foreach}}
+
+<div class="text-center">
+{{pagination}}
+</div>
+
+</div>
+</div>
+</div>

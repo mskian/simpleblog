@@ -1,0 +1,60 @@
+{{!< default}}
+
+{{!-- Everything inside the #post tags pulls data from the post --}}
+{{#post}}
+
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-lg-8 col-lg-offset-2">
+<br />
+<article class="{{post_class}}">
+<h1 class="post-head text-center">{{title}}</h1>
+<br />
+
+<div class="text-center">
+<span class="post-author">Posted by {{#author}}<a href="{{url}}" rel="author">{{name}}</a>{{/author}}</span>
+{{#primary_tag}}<span class="post-tags"> in <a href="{{url}}">{{name}}</a></span>{{/primary_tag}} <time class="post-date" datetime="{{date updated_at format='YYYY-MM-DD'}}"><i class="fa fa-calendar" aria-hidden="true"></i> {{date updated_at format="DD MMMM YYYY"}}</time>
+</div>
+<hr>
+
+<section class="post-content">
+{{content}}
+</section>
+<br />
+<br />
+<hr>
+
+<div class="post-nav text-center">
+{{#next_post}}
+<p>What's Next? - <a href="{{url}}" title="{{title}}">{{title}}</a></p>
+{{else}}
+<p>Oops No more New posts! Goto &rarr; <a href="{{@blog.url}}">Homepage</a></p>
+{{/next_post}}
+</div>
+<hr>
+
+<div class="text-center">
+<div class="sharebuttons btn-group">
+<a href="https://twitter.com/intent/tweet?text={{encode title}}&amp;url={{url absolute="true"}}" class="btn btn-twitter" target="_blank"><i class="fa fa-twitter"></i> Tweet</a>
+<a href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}" class="btn btn-facebook" target="_blank"><i class="fa fa-facebook"></i> Share</a>
+<a href="https://plus.google.com/share?url={{url absolute="true"}}" class="btn btn-google" target="_blank"><i class="fa fa-google-plus"></i> Plus</a>
+</div>
+</div>
+<br />
+
+</article>
+</div>
+</div>
+</div>
+
+<!-- Floating Share Bar -->
+<div id="shares" class="shares-left hide-on-mobile" style="top: 140px; margin-left: -510px; position: fixed; opacity: 0;">
+<ul class="share-list">
+<li class="share facebook"><a class="url" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}"><i class="fa fa-facebook"></i></a></li>
+<li class="share twitter"><a class="url" target="_blank" href="https://twitter.com/intent/tweet?text={{encode title}}&amp;url={{url absolute="true"}}"><i class="fa fa-twitter"></i></a></li>
+<li class="share googleplus"><a class="url" target="_blank" href="https://plus.google.com/share?url={{url absolute="true"}}"><i class="fa fa-google-plus"></i></a></li>
+</ul>
+</div>
+
+
+{{/post}}
