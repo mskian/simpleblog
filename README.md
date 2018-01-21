@@ -15,6 +15,11 @@ Theme demo  - https://santhosh.blog
 
 ```
 
+## Download Theme :file_folder:
+
+- Latest Version <b>(Latest and Stable)</b> - https://github.com/mskian/simpleblog/releases/download/0.0.1/simpleblog.zip
+
+
 ## Theme Info :bookmark:
 
 - Lightweight
