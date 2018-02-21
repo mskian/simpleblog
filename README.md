@@ -3,7 +3,7 @@
 Lightweight and Responsive Ghost theme Build using Bootstrap 4
 
 [![GPL](https://img.shields.io/badge/Liscense-MIT-green.svg)](https://github.com/mskian/simpleblog/blob/master/LICENSE)
-[![Version](https://img.shields.io/badge/Release-v0.0.1-brightgreen.svg)](https://github.com/mskian/simpleblog/releases)
+[![Version](https://img.shields.io/badge/Release-v0.0.2-brightgreen.svg)](https://github.com/mskian/simpleblog/releases)
 
 ## General Information :notes:
 
