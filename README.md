@@ -10,7 +10,7 @@ Lightweight and Responsive Ghost theme Build using Bootstrap 4
 This theme Supports Ghost CMS Latest Versions 1.0.0 and above :white_check_mark:
 
 ```
-Theme Version: 0.0.1
+Theme Version: 0.0.2
 Theme demo  - https://santhosh.blog
 
 ```
@@ -58,6 +58,10 @@ Theme demo  - https://santhosh.blog
 #### Version 0.0.1
 
 - First Release
+
+#### Version 0.0.2
+
+- Add HTML language Helper Tag
 
 ### License & Copyright
 
