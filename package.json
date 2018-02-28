@@ -1,8 +1,8 @@
 {
     "name": "simpleblog",
     "description": "Light weight and Responsive Ghost theme.",
-    "demo": "https://santhosh.blog",
-    "version": "0.0.2",
+    "demo": "https://itrendbuzz.com",
+    "version": "0.0.3",
     "engines": {
         "ghost": ">=1.2.0"
     },

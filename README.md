@@ -3,21 +3,19 @@
 Lightweight and Responsive Ghost theme Build using Bootstrap 4
 
 [![GPL](https://img.shields.io/badge/Liscense-MIT-green.svg)](https://github.com/mskian/simpleblog/blob/master/LICENSE)
-[![Version](https://img.shields.io/badge/Release-v0.0.2-brightgreen.svg)](https://github.com/mskian/simpleblog/releases)
+[![Version](https://img.shields.io/badge/Release-v0.0.3-brightgreen.svg)](https://github.com/mskian/simpleblog/releases)
 
 ## General Information :notes:
 
 This theme Supports Ghost CMS Latest Versions 1.0.0 and above :white_check_mark:
 
-```
-Theme Version: 0.0.2
-Theme demo  - https://santhosh.blog
 
 ```
+Theme Version: 0.0.3
+Theme demo  - https://itrendbuzz.com
 
-## Download Theme :file_folder:
+```
 
-- Latest Version <b>(Latest and Stable)</b> - https://github.com/mskian/simpleblog/releases/download/0.0.1/simpleblog.zip
 
 
 ## Theme Info :bookmark:
@@ -63,10 +61,14 @@ Theme demo  - https://santhosh.blog
 
 - Add HTML language Helper Tag
 
+#### Version 0.0.3
+
+- Demo Link Updated
+
 ### License & Copyright
 
 MIT
 
 
-<p>santhosh.blog &copy; 2018</p>
+<p>santhosh veer &copy; 2018</p>
 
